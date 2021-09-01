@@ -1,14 +1,20 @@
 from bs4 import BeautifulSoup
 from selenium import webdriver
 import requests
+import random
+import time
 import sys
 import os
 
 
 URL = 'https://service2.diplo.de/rktermin/extern/choose_categoryList.do?locationCode=pris&realmId=362'
 PATH = '/Users/gentritmehmeti/chromedriver'
-headers = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 11.5; rv:91.0) Gecko/20100101 Firefox/91.0',
-            'Accept-Language': 'en-US,en;q=0.5'}
+user_agents = ['Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36', 
+               'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36', 
+               'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36',
+               'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36',
+               'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36']
+headers = {'User-Agent': random.choice(user_agents)}
 driver = webdriver.Chrome(PATH)
 list_of_links = []
 generated_links = []
