@@ -63,6 +63,7 @@ def send_handle_request(url):
 if __name__=='__main__':
     send_handle_request(URL)
     if not found:
+        time.sleep(60)
         os.execv(sys.executable, ['python'] + sys.argv)    
 
 
