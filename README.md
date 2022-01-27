@@ -16,6 +16,8 @@ In order for this project to be setup you need:
 If your system's default python is other than the ones mentioned above consider installing another version of python
 You can do this using pyenv:
 - **pyenv** installation and setup can be found here: https://github.com/pyenv/pyenv
+
+
 Install the desired python version and create a virtualenv:
 
     - $ virtualenv venv
