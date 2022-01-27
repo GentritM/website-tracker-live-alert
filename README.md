@@ -18,4 +18,4 @@ You can do this using pyenv:
 - **pyenv** installation and setup can be found here: https://github.com/pyenv/pyenv
 - install the desired python version through pyenv and create a virtualenv
 - install airflow through pypi: 
-- pip install "apache-airflow[celery]==2.2.3" --constraint "https://raw.githubusercontent.com/apache/airflow/constraints-2.2.3/constraints-3.6.txt"
+   $ pip install "apache-airflow[celery]==2.2.3" --constraint "https://raw.githubusercontent.com/apache/airflow/constraints-2.2.3/constraints-3.6.txt"
