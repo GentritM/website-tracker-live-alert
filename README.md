@@ -16,7 +16,5 @@ In order for this project to be setup you need:
 If your system's default python is other than the ones mentioned above consider installing another version of python
 You can do this using pyenv:
 - **pyenv** installation and setup can be found here: https://github.com/pyenv/pyenv
-- install the desired python version through pyenv and create a virtualenv
-- install airflow through pypi: 
-
--   $ pip install "apache-airflow[celery]==2.2.3" --constraint "https://raw.githubusercontent.com/apache/airflow/constraints-2.2.3/constraints-3.6.txt"
+- install the desired python version through pyenv and create a virtualenv:
+      - pip install "apache-airflow[celery]==2.2.3" --constraint "https://raw.githubusercontent.com/apache/airflow/constraints-2.2.3/constraints-3.6.txt"
