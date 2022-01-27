@@ -1,6 +1,6 @@
 # WELCOME TO EDW PROJECT
 
-### **EDW** is a simple ETL that interacts with the EDW (European Data Warehouse) to fetch thr required
+#### **EDW** is a simple ETL that interacts with the EDW (European Data Warehouse) to fetch thr required
 
 ### How it works
 ####  At a high level this project connects to the **EDW** through sftp client, accesses the files that contain the required data, gets the data and loads it into the CARDO database for further operations.
