@@ -22,4 +22,6 @@ Install the desired python version and create a virtualenv:
 
     - $ virtualenv venv
     
-    - pip install "apache-airflow[celery]==2.2.3" --constraint "https://raw.githubusercontent.com/apache/airflow/constraints-2.2.3/constraints-3.6.txt"
+    - $ pip install "apache-airflow[celery]==2.2.3" --constraint "https://raw.githubusercontent.com/apache/airflow/constraints-2.2.3/constraints-3.6.txt"
+    
+    - $ 
