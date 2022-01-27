@@ -13,6 +13,5 @@
    - Airflow https://airflow.apache.org/docs/apache-airflow/stable/installation/index.html
 
 ### Setup
-       If your system's default python is other than the ones mentioned above consider installing another version of python
-       You can do this using pyenv:
-       https://github.com/pyenv/pyenv
+####       If your system's default python is other than the ones mentioned above consider installing another version of python
+####       You can do this using pyenv https://github.com/pyenv/pyenv
