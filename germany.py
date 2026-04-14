@@ -67,3 +67,4 @@ if __name__=='__main__':
         os.execv(sys.executable, ['python'] + sys.argv)    
 
 
+dumb_func()
